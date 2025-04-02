@@ -17,7 +17,7 @@ public class Customer {
     private String email;
     private String region;
 
-    // Constructors
+
     public Customer() {}
     public Customer(String name, String email, String region) {
         this.name = name;
@@ -25,7 +25,7 @@ public class Customer {
         this.region = region;
     }
 
-    // Getters and Setters
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

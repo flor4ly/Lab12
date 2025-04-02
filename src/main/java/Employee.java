@@ -13,7 +13,7 @@ public class Employee {
     private String name;
     private Double salary;
 
-    // Getters and Setters to allow access to the fields
+
     public Long getId() {
         return id;
     }
